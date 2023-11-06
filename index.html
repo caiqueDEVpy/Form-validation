@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <div id="form-title">
+            <h1>Formulario</h1>
+        </div>
+        <div id="form-conteiner">
+            <form>
+                <div class="input">
+                    <label id="label-form"> Name</label>
+                <input id="name-id" name="Name" placeholder="Name" type="text">
+                
+                </div>
+                <div class="input">
+                    <label id="label-form"> Mail</label>
+                    <input id="mail-id" name="Mail" placeholder="Mail" type="email">
+                    
+                </div>
+               <div class="input">
+                <label id="label-form"> Password</label>
+                <input id="password-id" name="Password" placeholder="Password" type="password">
+               </div>
+               <div class="input">
+                <div id="gender-conteiner">
+                    <label id="label-form"> Gender</label>
+                    <div id="gender-input-conteiner">
+                        <div id="gender-femele-id">
+                            <input id="genero1-id" name="Genero-Femenino" placeholder="Gender" type="checkbox">
+                            <p>Femele</p>
+                        </div>
+                        <div id="gender-masculine-id">
+                            <input id="genero2-id" name="Genero-Masculino" placeholder="Gender" type="checkbox">
+                            <p>Masculine</p>
+                            <p id="gender-text"></p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+               </div>
+                
+               <div class="input">
+                <label id="label-form"> born</label>
+                <input id="nascimento-id" name="Data-de-nascimento" placeholder="Quando você nasceu?" type="date">
+               </div>
+                
+               <button id="btn-submit">submit</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="form.js"></script>
+</body>
+
+</html>
